@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun  6 15:31:36 2022
+# Make data base, printed on Mon Jun  6 15:41:13 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e35dc29d-b057-4eff-a5df-8db5e8279d4a.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-326ec95b-0696-4dbc-8cc4-0684da8102a2.sock
 # environment
 LC_NAME = tr_TR.UTF-8
 # environment
@@ -41,7 +41,7 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -59,17 +59,17 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/panache/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /home/panache/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.1W3XM1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.RGZXM1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.94
+GNOME_TERMINAL_SERVICE = :1.103
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -105,13 +105,13 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 3202
+VSCODE_PID = 3425
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/panache-VirtualBox:@/tmp/.ICE-unix/1102,unix/panache-VirtualBox:/tmp/.ICE-unix/1102
+SESSION_MANAGER = local/panache-VirtualBox:@/tmp/.ICE-unix/1101,unix/panache-VirtualBox:/tmp/.ICE-unix/1101
 # automatic
 *F = $(notdir $*)
 # environment
@@ -135,7 +135,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1f5cfda0_ac97_411b_a668_fb74eea3041e
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/3f3e293c_0209_4afa_8d42_f89bab570311
 # environment
 MAKELEVEL := 0
 # default
@@ -155,9 +155,9 @@ SNAP_USER_COMMON = /home/panache/snap/code/common
 # environment
 LC_TIME = tr_TR.UTF-8
 # environment
-SNAP = /snap/code/96
+SNAP = /snap/code/97
 # environment
-SNAP_REVISION = 96
+SNAP_REVISION = 97
 # environment
 SNAP_REAL_HOME = /home/panache
 # environment
@@ -191,7 +191,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := main
 # environment
-SYSTEMD_EXEC_PID = 1491
+SYSTEMD_EXEC_PID = 1561
 # environment
 DISPLAY = :0
 # environment
@@ -203,7 +203,7 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/96
+SNAP_DATA = /var/snap/code/97
 # environment
 SNAP_CONTEXT = 7djw1AqHhcrY7W8zYUzzZSLCqPPgkNLdmIsPf5HX3nx-IuytttDp
 # environment
@@ -229,13 +229,13 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-486e6ccf-1.67.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-486e6ccf-1.67.2-main.sock
 # environment
 TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
 # environment
 IM_CONFIG_PHASE = 1
 # default
@@ -243,7 +243,7 @@ IM_CONFIG_PHASE = 1
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = da15b6fd
+SNAP_VERSION = c3511e6c
 # default
 SUFFIXES := 
 # environment
@@ -259,7 +259,7 @@ SNAP_COMMON = /var/snap/code/common
 # makefile (from 'Makefile', line 6)
 CC = g++
 # environment
-SNAP_USER_DATA = /home/panache/snap/code/96
+SNAP_USER_DATA = /home/panache/snap/code/97
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -277,10 +277,10 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2051, inode 1979244): 29 files, no impossibilities.
+# . (device 2051, inode 1979244): 30 files, no impossibilities.
 
  
-# 29 files, no impossibilities in 1 directories.
+# 30 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -397,12 +397,12 @@ tinyxml2.h:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 34 / storage = 334 B / avg = 9 B
-# current buf: size = 8162 B / used = 334 B / count = 34 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 35 / storage = 339 B / avg = 9 B
+# current buf: size = 8162 B / used = 339 B / count = 35 / avg = 9 B
 
-# strcache performance: lookups = 71 / hit rate = 52%
+# strcache performance: lookups = 72 / hit rate = 51%
 # hash-table stats:
-# Load=34/8192=0%, Rehash=0, Collisions=4/71=6%
-# Finished Make data base on Mon Jun  6 15:31:36 2022
+# Load=35/8192=0%, Rehash=0, Collisions=4/72=6%
+# Finished Make data base on Mon Jun  6 15:41:13 2022
 
  
