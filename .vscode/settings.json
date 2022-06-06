@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "*.tcc": "cpp",
+        "compare": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "numbers": "cpp",
+        "ostream": "cpp",
+        "cmath": "cpp"
+    }
+}
