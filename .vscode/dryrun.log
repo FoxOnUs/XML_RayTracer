@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/panache/Desktop/pa1'
+g++ -Wall -g -c scene.cpp
+g++    -c -o tinyxml2.o tinyxml2.cpp
+g++    -c -o mesh.o mesh.cpp
+g++    -c -o camera.o camera.cpp
+g++    -c -o material.o material.cpp
+g++    -c -o raytracing.o raytracing.cpp
+g++ -Wall -g -o main scene.o raytracing.o tinyxml2.o mesh.o camera.o material.o
+make: Leaving directory '/home/panache/Desktop/pa1'
+ 
